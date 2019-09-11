@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Form </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class = "container">
+    <form name='travel'>
+        <p>Customer:</p>
+        <input type="text" name='firstName' placeholder=" First Name" class = "button"><p></p>
+        <input type="text" name='lastName' placeholder=" Last Name" class = "button"><p></p>
+        <input type="number" name='age' placeholder=" Enter Your Age" required class = "button">
+        <p>Gender:</p>
+       <input value='Male' class = 'radio' type="radio" name='choice'> Male 
+       <input value='Female' class = 'radio' type="radio" name='choice'> Female 
+        <p>Destination:</p>
+        <input value='Las Vegas' type="radio" class = 'radio' name='destination'>Las Vegas<p></p>
+        <input value='Los Angeles' type="radio" class = 'radio' name='destination'> Los Angeles  <p></p>
+       <input value='Missoula' type="radio" class = 'radio' name='destination'> Missoula 
+        <p>Dietary Request:</p>
+        <input value=' Vegan' class = 'checkbox' type="checkbox" name='dietary'>Vegan 
+        <input value=' Vegetarian' class = 'checkbox' type="checkbox"name='dietary'> Vegetarian 
+        <input value=' Carnivore' class = 'checkbox'type="checkbox" name='dietary'> Carnivore 
+        <input value='Kosher' class = 'checkbox' type="checkbox"name='dietary'>Kosher 
+        <input value='Halal'class = 'checkbox' type="checkbox"name='dietary'>Halal
+        
+        <p></p>
+        <button id = 'submit'>Submit Your Reservation</button>
+
+
+    </form>
+    
+</div>
+
+
+
+
+    <script src="/app.js"></script>
+</body>
+</html>

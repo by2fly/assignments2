@@ -1,0 +1,98 @@
+[
+    {
+        "completed": false,
+        "_id": "5d3b7a0aa84e852017a3234b",
+        "title": "Thursday Afternoon",
+        "description": "workin workin",
+        "sessionId": "brian",
+        "__v": 0,
+        "imgUrl": "http://image.gif",
+        "price": 0
+    },
+    {
+        "completed": false,
+        "_id": "5d3b825aa84e852017a3234f",
+        "title": "cut grass",
+        "description": "this is weekly",
+        "sessionId": "brian",
+        "__v": 0,
+        "imgUrl": "http://image.gif",
+        "price": 0
+    },
+    {
+        "completed": false,
+        "_id": "5d3b826ea84e852017a32350",
+        "title": "clean car",
+        "description": "as needed",
+        "sessionId": "brian",
+        "__v": 0,
+        "imgUrl": "http://image.gif",
+        "price": 0
+    },
+    {
+        "completed": false,
+        "_id": "5d3b8283a84e852017a32351",
+        "sessionId": "brian",
+        "__v": 0,
+        "description": "as needed",
+        "title": "wash windows",
+        "imgUrl": "http://image.gif",
+        "price": 0
+    },
+    {
+        "completed": false,
+        "_id": "5d445f7ac81cbe59ee23e0a2",
+        "title": "cut grass",
+        "description": "this is weekly",
+        "price": 1,
+        "imgUrl": "http://path-to-url.jpg",
+        "sessionId": "brian",
+        "__v": 0
+    },
+    {
+        "completed": false,
+        "_id": "5d44b505ab8dfe0c547c2d48",
+        "title": "get haircut",
+        "description": "this is bi-weekly",
+        "sessionId": "brian",
+        "__v": 0,
+        "price": 0,
+        "imgUrl": "http://image.gif"
+    }
+]
+
+//////////////////////////////////////////////////////////////
+
+Filter
+Save Responses
+
+todo
+
+GET
+https://api.vschool.io/brian/todo
+Query Params
+KEY
+VALUE
+DESCRIPTION
+Bulk Edit
+Key
+
+Value
+
+Description
+
+200OK
+322ms
+1.59 KB
+47484950515253545556575859606162636465666768697071727374757677787980818283
+[
+    {
+        "completed": false,
+        "_id": "5d3b7a0aa84e852017a3234b",
+        "title": "Thursday Afternoon",
+        "description": "workin workin",
+        "sessionId": "brian",
+        "__v": 0,
+        "imgUrl": "http://image.gif",
+        "price": 0
+

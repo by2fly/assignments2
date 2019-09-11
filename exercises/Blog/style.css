@@ -1,0 +1,51 @@
+body {
+    min-width: 550px;      /* 2x LC width + RC width */
+    height: 100vh;
+  }
+  #container {
+    padding-left: 200px;   /* LC width */
+    padding-right: 150px;  /* RC width */
+    background-color: aliceblue;
+  }
+  #container .column {
+    position: relative;
+    float: left;
+    background-color: cadetblue;
+  }
+  #center {
+    width: 100%;
+    background-color: indianred;
+  }
+  #left {
+    width: 200px;          /* LC width */
+    right: 200px;          /* LC width */
+    margin-left: -100%;
+    background-color: blueviolet;
+  }
+  #right {
+    width: 150px;          /* RC width */
+    margin-right: -150px;  /* RC width */
+    background-color: yellowgreen;
+  }
+  #footer {
+    clear: both;
+  }
+  /*** IE6 Fix ***/
+  * html #left {
+    left: 150px;           /* RC width */
+  }
+
+  #container {
+    overflow: hidden;
+  }
+  #container .column {
+    padding-bottom: 20010px;  /* X + padding-bottom */
+    margin-bottom: -20000px;  /* X */
+  }
+  #footer {
+    position: relative;
+  }
+  #header {
+    height: 60px;
+
+  }

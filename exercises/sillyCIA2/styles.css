@@ -1,0 +1,40 @@
+* {
+    font-family: serif;
+    font-size: 24px;
+   
+    /* margin: 0 138px 15px; */
+}
+
+h1 {
+    font-size: 44px;
+    color: darkgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2  {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+div {
+    margin: 0 565px 0;
+}
+p {
+    line-height: 25px;
+}
+a {
+    text-decoration-line: none;
+}
+label {
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration-line: underline;
+}
+img.floatLeft {
+    float: left;
+    margin: 10px 30px;
+}
+ul{
+    margin-left: 550px;
+}
