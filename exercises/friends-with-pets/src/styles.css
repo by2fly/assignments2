@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+
+body{
+    background: lightgray;
+    font-size: 1em;  
+    font-family: 'Merriweather', serif;
+
+
+}
+
+.friend-container {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.pet-container {
+    border: 1px solid blue;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+
+
+}
+

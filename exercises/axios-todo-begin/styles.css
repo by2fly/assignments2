@@ -1,0 +1,25 @@
+.completed {
+text-decoration: line-through;
+color: red;
+
+}
+
+.img-styles {
+width: 20px;
+border-radius: 10px:
+
+}
+
+.todo-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 150px;
+    overflow: hidden;
+    grid-gap: 5px;
+
+
+}
